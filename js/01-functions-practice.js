@@ -18,7 +18,7 @@
 // Method 3
 let x = parseFloat(prompt(`Please enter a number`));
 const division = (z) => {console.log(`Half of ${x} is ${x/2}`) };
-division(x)
+division(x);
 
 //STEP 2
 
