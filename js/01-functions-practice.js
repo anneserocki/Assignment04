@@ -23,7 +23,7 @@
 //STEP 2
 // Method1
 // let x = parseFloat(prompt(`Please enter a number`));
-// const squareNumber = (z) => {console.log(`The result of squaring the number ${x} is ${x * x}.`)};
+// const squareNumber = (z) => console.log(`The result of squaring the number ${x} is ${x * x}.`);
 // squareNumber(x);
 
 // Method2
@@ -44,14 +44,25 @@
 // percentOf(firstNum, secondNum);
 
 // Method2
-let firstNum = parseFloat(prompt(`Please enter the first number`));
-let secondNum = parseFloat(prompt(`Please enter the second number`));
-let percentNum = ((firstNum / secondNum)*100);
-const percentOf = (x, y) => {
-    console.log(`${x} is ${percentNum}% of ${y}.`);
-}
-percentOf(firstNum, secondNum);
+// let firstNum = parseFloat(prompt(`Please enter the first number`));
+// let secondNum = parseFloat(prompt(`Please enter the second number`));
+// let percentNum = ((firstNum / secondNum)*100);
+// const percentOf = (x, y) => console.log(`${x} is ${percentNum}% of ${y}.`);
+// percentOf(firstNum, secondNum);
 
 //STEP 4
+// Method1
+// let firstNum = parseFloat(prompt(`Please enter the first number`));
+// let secondNum = parseFloat(prompt(`Please enter the second number`));
+// function  findModulus(x, y) {
+//     console.log(`${x % y} is the modulus of ${x} and ${y}.`);    
+// };
+// findModulus(firstNum, secondNum);
+
+// Method2
+// let firstNum = parseFloat(prompt(`Please enter the first number`));
+// let secondNum = parseFloat(prompt(`Please enter the second number`));
+// const findModulus = (x, y) => console.log(`${x % y} is the modulus of ${x} and ${y}.`);     
+// findModulus(firstNum, secondNum); 
 
 //STEP 5
