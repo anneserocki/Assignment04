@@ -66,3 +66,15 @@
 // findModulus(firstNum, secondNum); 
 
 //STEP 5
+// let getNumbers = parseInt(prompt(`Please enter numbers`));
+// console.log(getNumbers);
+// let getNumbers = parseFloat(prompt(`Please enter numbers`));
+
+function caculate(numbers) {
+    let sum = 0;
+    for (let i=0; i<arguments.length; i++) { 
+        sum += Number(arguments[i]);        
+    };
+    console.log(sum);    
+};
+caculate(1,2,3,4,5,6);
