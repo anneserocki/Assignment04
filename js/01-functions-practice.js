@@ -82,3 +82,4 @@ function caculate() {
     console.log(sum);   
 };
 caculate(getNumber[3],getNumber[2],getNumber[1]); 
+
